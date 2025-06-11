@@ -85,15 +85,6 @@ class MalaysianPovertyRAG:
         self.embedding_dim = 384
         self.max_context_length = 4000
         self.similarity_threshold = 0.1
-        
-        # Language detection patterns
-        self.malay_patterns = [
-            'bagaimana', 'cara', 'berapa', 'apakah', 'dimana', 'bila', 'siapa',
-            'kemiskinan', 'bantuan', 'kerajaan', 'permohonan', 'ekasih', 'sara',
-            'malaysia', 'rakyat', 'pendapatan', 'keluarga', 'mohon', 'skim',
-            'program', 'bantuan', 'wang', 'ringgit', 'rm', 'kadar', 'statistik',
-            'tegar', 'miskin', 'sosial', 'ekonomi'
-        ]
 
     def find_latest_embedding_files(self) -> Dict[str, str]:
         """Find the latest embedding files"""
@@ -327,7 +318,7 @@ class MalaysianPovertyRAG:
         text_lower = text.lower()
         lang = self.nlp(text_lower)
 
-        if lang._.language['language'] == 'my':
+        if lang._.language['language'] == 'my' or lang._.language['language'] == 'id':
             return "bahasa_malaysia"
         elif lang._.language['language'] == 'en':
             return "english"
