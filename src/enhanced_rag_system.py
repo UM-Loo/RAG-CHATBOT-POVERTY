@@ -6,6 +6,9 @@ from typing import List, Dict, Tuple, Optional
 import warnings
 import re
 import os
+import spacy
+from spacy_langdetect import LanguageDetector
+from spacy.language import Language
 warnings.filterwarnings('ignore')
 
 # Core RAG imports
@@ -310,18 +313,26 @@ class MalaysianPovertyRAG:
         except Exception as e:
             print(f"❌ Transformers initialization failed: {e}")
             self.model_type = "mock"
-    
+
+    @Language.factory("language_detector")
+    def get_lang_detector(nlp, name):
+        return LanguageDetector()
+
+    def initialize_nlp_langdetect(self):
+        self.nlp = spacy.load("en_core_web_sm")
+        self.nlp.add_pipe('language_detector', last=True)
+
     def detect_language(self, text: str) -> str:
         """Detect query language"""
         text_lower = text.lower()
-        malay_score = sum(1 for pattern in self.malay_patterns if pattern in text_lower)
-        
-        # if malay_score >= 2:
-        #     return "bahasa_malaysia"
-        # elif malay_score >= 1:
-        #     return "mixed"
-        # else:
-        return "english"
+        lang = self.nlp(text_lower)
+
+        if lang._.language['language'] == 'my':
+            return "bahasa_malaysia"
+        elif lang._.language['language'] == 'en':
+            return "english"
+        else:
+            return "others"
     
     def _expand_query(self, query: str) -> str:
         """Expand queries with synonyms and related terms"""
@@ -889,6 +900,7 @@ def setup_rag_system():
     # Load embeddings and initialize models
     rag_system.load_embeddings()
     rag_system.initialize_models()
+    rag_system.initialize_nlp_langdetect()
     
     print(f"\n✅ Enhanced RAG system ready with {rag_system.model_type} model!")
     print("🔧 Applied fixes:")
