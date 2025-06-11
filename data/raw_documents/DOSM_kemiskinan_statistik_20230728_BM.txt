@@ -1,0 +1,66 @@
+=================================================
+METADATA DOKUMEN
+=================================================
+TAJUK: Kemiskinan - Statistik Kemiskinan Malaysia 1970-2022
+SUMBER: Jabatan Perangkaan Malaysia (DOSM) - OpenDOSM
+URL: https://open.dosm.gov.my/ms-MY/data-catalogue/hh_poverty
+TARIKH_AKSES: 2024-06-09
+TARIKH_TERBIT: 2023-07-28
+BAHASA: Bahasa Malaysia
+JENIS_DOKUMEN: Portal Data Statistik
+TAG_TOPIK: kemiskinan mutlak, kemiskinan tegar, kemiskinan relatif, PGK, Pendapatan Garis Kemiskinan, statistik kemiskinan
+RELEVAN: Definisi teknikal kemiskinan dalam Bahasa Malaysia, metodologi pengiraan PGK, data kemiskinan 1970-2022
+=================================================
+
+KANDUNGAN DOKUMEN
+=================================================
+Bagaimana data ini dijana?
+Secara am, definisi kemiskinan adalah pendapatan isi rumah di bawah sesuatu aras pendapatan. Oleh itu, statistik mengenai kemiskinan di Malaysia dihasilkan dan diterbitkan bersama dengan statistik pendapatan isi rumah yang dihasilkan daripada Survei Pendapatan dan Perbelanjaan Isi Rumah (HIES), yang dilaksanakan sekurang-kurangnya dua kali dalam mana-mana tempoh 5 tahun.
+
+Set data ini memaparkan 3 definisi kemiskinan:
+
+KEMISKINAN MUTLAK: Sebuah isi rumah dianggap berada dalam kemiskinan mutlak jika pendapatan kasar bulanan isi rumah mereka berada di bawah Pendapatan Garis Kemiskinan (PGK). Ini menunjukkan bahawa isi rumah tersebut tidak mempunyai pendapatan yang cukup untuk memenuhi keperluan asas untuk kehidupan yang bermaruah.
+
+KEMISKINAN TEGAR: Sebuah isi rumah dianggap berada dalam kemiskinan tegar jika pendapatan kasar bulanan isi rumah mereka berada di bawah Pendapatan Garis Kemiskinan Makanan (PGK Makanan). Ini menunjukkan bahawa isi rumah tersebut tidak mempunyai pendapatan yang cukup untuk memenuhi keperluan kalori asas.
+
+KEMISKINAN RELATIF: Sebuah isi rumah dianggap berada dalam kemiskinan relatif jika pendapatan kasar bulanan isi rumah mereka berada di bawah separuh pendapatan penengah nasional. Indikator ini digunakan untuk menganalisis ketersisihan relatif dalam negara, terutamanya apabila kadar kemiskinan mutlak dan tegar semakin mendekati kosong seperti mana yang berlaku di Malaysia.
+
+Untuk mendapat perincian metodologi yang penuh, terutamanya mengenai pengiraan PGK serta evolusi dan nuansanya, sila rujuk kepada nota teknikal.
+
+Apakah kaveat yang perlu diingati apabila menggunakan data ini?
+Memandangkan bahawa data ini dihasilkan daripada survey yang menjangkau lebih dari setengah abad, perubahan metodologi berikut harus diberi perhatian:
+
+- Data untuk 1970 dan 1974 merujuk kepada Semenanjung Malaysia sahaja. 
+- Tahun 1976 adalah tahun pertama di mana Sabah dan Sarawak disekalikan dalam tinjauan.
+- Mulai 1989, data merujuk kepada warganegara Malaysia sahaja. Walaupun warga asing juga disekalikan dalam tinjauan, statistik rasmi (yang menjadi asas untuk dasar nasional) hanya berdasarkan warganegara sahaja.
+
+Penerbitan berdasarkan data ini
+Laporan Survei Pendapatan Isi Rumah, 2022, edisi terkini bagi statistik pendapatan isi rumah yang diterbitkan oleh DOSM. OpenDOSM juga membekalkan dashboard pendapatan isi rumah yang membolehkan anda menerokai data pendapatan isi rumah Malaysia secara interaktif.
+
+PEMBOLEHUBAH DATA:
+
+Tarikh: Tarikh dalam format YYYY-MM-DD, dengan MM-DD diberi nilai 01-01 kerana data berfrekuensi tahunan
+
+Kadar Kemiskinan Mutlak: Nisbah isi rumah dengan pendapatan bulanan yang rendah daripada Pendapatan Garis Kemiskinan (PGK)
+
+Kadar Kemiskinan Tegar: Nisbah isi rumah dengan pendapatan bulanan yang rendah daripada Pendapatan Garis Kemiskinan Makanan (PGK Makanan)
+
+Kadar Kemiskinan Relatif: Nisbah isi rumah dengan pendapatan bulanan yang rendah daripada separuh pendapatan penengah nasional
+
+Data ini adalah data terbuka di bawah lesen Creative Commons Attribution 4.0 International (CC BY 4.0).
+
+Kemaskini terakhir:
+28 Jul 2023, 12:00
+
+Sumber data
+Jabatan Perangkaan Malaysia
+
+Lesen
+Dataset penuh tersedia dalam format CSV dan Parquet untuk analisis data.
+
+Jabatan Perangkaan Malaysia
+© 2025 Data Terbuka Sektor Awam
+
+=================================================
+TAMAT DOKUMEN
+=================================================

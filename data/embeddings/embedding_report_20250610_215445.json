@@ -1,0 +1,39 @@
+{
+  "generation_date": "2025-06-10T21:54:45.053151",
+  "model_info": {
+    "name": "paraphrase-multilingual-MiniLM-L12-v2",
+    "embedding_dimension": 384
+  },
+  "data_summary": {
+    "total_chunks": 17,
+    "total_documents": 8,
+    "average_chunk_length": 310.52941176470586,
+    "embedding_shape": [
+      17,
+      384
+    ]
+  },
+  "language_distribution": {
+    "english": 7,
+    "Bahasa Malaysia": 8,
+    "English": 2
+  },
+  "source_distribution": {
+    "Bank Negara Malaysia": 3,
+    "Jabatan Perangkaan Malaysia (DOSM) - OpenDOSM": 2,
+    "Unknown": 4,
+    "Unit Penyelarasan Pelaksanaan, Jabatan Perdana Menteri (ICU JPM)": 2,
+    "SemakanOnline.com (Portal Maklumat Bantuan)": 2,
+    "Ministry of Finance Malaysia": 2,
+    "Pejabat Perdana Menteri Malaysia": 2
+  },
+  "doc_type_distribution": {
+    "Annual Report": 3,
+    "Portal Data Statistik": 2,
+    "unknown": 4,
+    "FAQ Rasmi Kerajaan": 2,
+    "Panduan Aplikasi": 2,
+    "Press Release": 2,
+    "Kenyataan Akhbar": 2
+  }
+}

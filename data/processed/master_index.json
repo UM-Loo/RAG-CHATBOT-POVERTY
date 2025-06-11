@@ -1,0 +1,128 @@
+{
+  "processing_date": "2025-06-10T21:38:38.010377",
+  "total_documents": 7,
+  "total_chunks": 14,
+  "total_words": 3829,
+  "language_distribution": {
+    "Bahasa Malaysia": 4,
+    "english": 2,
+    "English": 1
+  },
+  "documents": [
+    {
+      "doc_id": "ICU_ekasih_FAQ_official_20240101_BM",
+      "file_path": "raw_documents\\web_sources\\government\\ICU_ekasih_FAQ_official_20240101_BM.txt",
+      "file_type": "txt",
+      "title": "FAQ eKasih - Soalan Lazim eKasih",
+      "source": "Unit Penyelarasan Pelaksanaan, Jabatan Perdana Menteri (ICU JPM)",
+      "url": "https://www.icu.gov.my/?pg=bantuan&type=faq&list=fekasih",
+      "publish_date": "2024-01-01",
+      "language": "Bahasa Malaysia",
+      "doc_type": "FAQ Rasmi Kerajaan",
+      "topic_tags": [
+        "eKasih FAQ",
+        "sistem eKasih",
+        "PGK",
+        "KIR",
+        "AIR",
+        "pendaftaran",
+        "bantuan"
+      ],
+      "relevance": "Soalan lazim rasmi tentang sistem eKasih daripada ICU JPM"
+    },
+    {
+      "doc_id": "PMO_pembasmian_kemiskinan_20230911_BM",
+      "file_path": "raw_documents\\web_sources\\government\\PMO_pembasmian_kemiskinan_20230911_BM.txt",
+      "file_type": "txt",
+      "title": "NOKTAH KEMISKINAN: RM1.5 BILION DILULUS UNTUK PROGRAM JANA PENDAPATAN GOLONGAN SASAR",
+      "source": "Pejabat Perdana Menteri Malaysia",
+      "url": "https://www.pmo.gov.my/ms/2023/09/noktah-kemiskinan-rm1-5-bilion-dilulus-untuk-program-jana-pendapatan-golongan-sasar/",
+      "publish_date": "2023-09-11",
+      "language": "Bahasa Malaysia",
+      "doc_type": "Kenyataan Akhbar",
+      "topic_tags": [
+        "pembasmian kemiskinan",
+        "jana pendapatan",
+        "golongan sasar",
+        "RM1.5 bilion",
+        "kemiskinan tegar",
+        "IPR",
+        "perlindungan sosial"
+      ],
+      "relevance": "Komitmen rasmi kerajaan dan peruntukan bajet untuk program kemiskinan, statistik khusus keluarga miskin tegar"
+    },
+    {
+      "doc_id": "PMO_poverty_eradication_20230911_EN",
+      "file_path": "raw_documents\\web_sources\\government\\PMO_poverty_eradication_20230911_EN.txt",
+      "file_type": "txt",
+      "language": "english"
+    },
+    {
+      "doc_id": "MOF_sara_program_2024_20240119_EN",
+      "file_path": "raw_documents\\web_sources\\programs\\MOF_sara_program_2024_20240119_EN.txt",
+      "file_type": "txt",
+      "title": "Sumbangan Asas Rahmah 2024: RM700 Million For 700,000 Individuals Targeted Subsidy Uplifts Vulnerable Group",
+      "source": "Ministry of Finance Malaysia",
+      "url": "https://www.mof.gov.my/portal/en/news/press-release/sumbangan-asas-rahmah-2024",
+      "publish_date": "2024-01-19",
+      "language": "English",
+      "doc_type": "Press Release",
+      "topic_tags": [
+        "SARA program",
+        "Sumbangan Asas Rahmah",
+        "RM700 million",
+        "eKasih",
+        "vulnerable group",
+        "targeted subsidy"
+      ],
+      "relevance": "Detailed assistance program information, eligibility criteria, application process, and payment amounts"
+    },
+    {
+      "doc_id": "ICU_ekasih_panduan_20240127_BM",
+      "file_path": "raw_documents\\web_sources\\program_BM\\ICU_ekasih_panduan_20240127_BM.txt",
+      "file_type": "txt",
+      "title": "eKasih 2024: Pendaftaran & Permohonan Baru Portal e-Kasih",
+      "source": "SemakanOnline.com (Portal Maklumat Bantuan)",
+      "url": "https://semakanonline.com/ekasih/",
+      "publish_date": "2024-01-27",
+      "language": "Bahasa Malaysia",
+      "doc_type": "Panduan Aplikasi",
+      "topic_tags": [
+        "eKasih",
+        "pendaftaran",
+        "permohonan",
+        "semakan status",
+        "KIR",
+        "AIR",
+        "bantuan"
+      ],
+      "relevance": "Panduan praktis pendaftaran eKasih dan jenis bantuan yang tersedia"
+    },
+    {
+      "doc_id": "DOSM_kemiskinan_statistik_20230728_BM",
+      "file_path": "raw_documents\\web_sources\\statistics_BM\\DOSM_kemiskinan_statistik_20230728_BM.txt",
+      "file_type": "txt",
+      "title": "Kemiskinan - Statistik Kemiskinan Malaysia 1970-2022",
+      "source": "Jabatan Perangkaan Malaysia (DOSM) - OpenDOSM",
+      "url": "https://open.dosm.gov.my/ms-MY/data-catalogue/hh_poverty",
+      "publish_date": "2023-07-28",
+      "language": "Bahasa Malaysia",
+      "doc_type": "Portal Data Statistik",
+      "topic_tags": [
+        "kemiskinan mutlak",
+        "kemiskinan tegar",
+        "kemiskinan relatif",
+        "PGK",
+        "Pendapatan Garis Kemiskinan",
+        "statistik kemiskinan"
+      ],
+      "relevance": "Definisi teknikal kemiskinan dalam Bahasa Malaysia, metodologi pengiraan PGK, data kemiskinan 1970-2022"
+    },
+    {
+      "doc_id": "DOSM_poverty_statistics_20230728_EN",
+      "file_path": "raw_documents\\web_sources\\statistics_EN\\DOSM_poverty_statistics_20230728_EN.txt",
+      "file_type": "txt",
+      "language": "english"
+    }
+  ]
+}

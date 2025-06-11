@@ -1,0 +1,59 @@
+=================================================================
+DOCUMENT METADATA
+=================================================================
+Document Title: Poverty - Poverty rates in Malaysia from 1970 to 2022
+Source Organization: Department of Statistics Malaysia (DOSM) - OpenDOSM
+Source Type: Statistical Data Portal
+Original URL: https://open.dosm.gov.my/data-catalogue/hh_poverty
+Date Published: 2023-07-28
+Date Collected: 2024-06-09
+Language: English
+Collection Method: Manual CopyDocument 
+RELEVANT: Technical definition of poverty in Bahasa Malaysia, PGK calculation methodology, poverty data 1970-2022
+
+=================================================================
+DOCUMENT CONTENT
+=================================================================
+
+How is this data produced?
+In general, poverty is defined as having household income below a specific benchmark. Accordingly, statistics on poverty in Malaysia are produced and published together with statistics on household income derived from the Household Income and Expenditure Survey (HIES), which is conducted at least twice within any 5-year period. This dataset presents 3 definitions of poverty:
+
+Absolute Poverty: A household is considered to be in absolute poverty if their gross monthly household income is below the Poverty Line Income (PLI). This indicates that the household does not earn sufficient income to meet basic needs for a dignified life.
+Hardcore Poverty: A household is considered to be in hardcore poverty if their gross monthly household income is below the Food Poverty Line Income (Food PLI). This indicates that the household does not earn sufficient income to meet basic calorie requirements. It should be noted that hardcore poverty is a subset of absolute poverty.
+Relative Poverty: A household is considered to be in relative poverty if their gross monthly household income is below half the national median income. This measure is used to assess relative deprivation within the country, especially as absolute and hardcore poverty rates approach 0, as is the case for Malaysia.
+For full details on the methodology, especially the computation of the PLI and its evolution and nuances, please refer to the technical notes.
+
+What caveats I should bear in mind when using this data?
+Given that the data is produced from surveys spanning over half a century, the following methodological changes should be noted:
+
+Data for 1970 and 1974 refers to Peninsular Malaysia only. 1976 was the first year in which Sabah and Sarawak were included in the survey.
+Data from 1989 onwards refers to Malaysian citizens only. Although non-citizens are also included in the surveys, the official statistics (which form the basis for national welfare policy) are based on citizens only.
+
+Publication(s) using this data
+The Household Income Survey Report, 2022, the latest edition of the household income statistics published by DOSM. OpenDOSM also features a dashboard on household income which enables you to explore Malaysia's household income data interactively.
+
+Data Variable:
+
+Date: The date in YYYY-MM-DD format, with MM-DD set to 01-01 as the data is at annual frequency
+
+Absolute Poverty Rate: Proportion of households with monthly income below the Poverty Line Income (PLI)
+
+Hardcore Poverty Rate: Proportion of households with monthly income below the Food Poverty Line Income (Food PLI)
+
+Relative Poverty Rate: Proportion of households with monthly income below half the national median income
+
+Last updated:
+28 Jul 2023, 12:00
+
+Data source(s)
+Department of Statistics Malaysia
+
+License
+This data is made open under the Creative Commons Attribution 4.0 International License (CC BY 4.0). A copy of the license is available Here.
+
+Department of Statistics Malaysia
+© 2025 Public Sector Open Data
+
+=================================================================
+END OF DOCUMENT
+=================================================================
